@@ -126,5 +126,3 @@ st.write("""
 3. Select appropriate options for Gender, Occupation, and BMI Category.
 4. Click the 'Predict' button to see the predicted sleep disorder.
 """)
-
-!pip install streamlit
