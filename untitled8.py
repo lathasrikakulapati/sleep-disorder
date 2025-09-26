@@ -18,7 +18,7 @@ st.title("Sleep Disorder Prediction App")
 
 # Load the trained logistic regression model
 try:
-    with open('/content/logreg_model.pkl', 'rb') as file:
+    with open('logreg_model.pkl', 'rb') as file:
         logreg = pickle.load(file)
 except FileNotFoundError:
     st.error("Model file 'logreg_model.pkl' not found. Please ensure it is in the same directory.")
